@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <title>CS @ Illinois Search</title>
+		<link rel="stylesheet" type="text/css" href="mike_style.css">
+        <style>
+            table, th, td { 
+                border: 1px solid black; 
+                border-collapse: collapse;
+                font-size: 20px;
+            }  
+        </style>
+    <script language="javascript" type="text/javascript" src="filter.js"></script>
+
+	</head>
+	
+	<body style="background: #00a2e8;">
+
+        <h1> 
+            <table width = "100%" bgcolor = "#f68024">
+            <tr>
+                <td align = "left"><img src="CS@ILLINOIS1.jpg" style="height:74px;"></td>
+            </tr>
+            </table>
+        </h1>
+        <br/>
+
+        <form id="result">
+            <div id="name" style="font-size:40px"><b>Professor Name (e.g. Master Zhai)</b></div>
+
+            <div>
+            <table width = "1000px" align = "left">  
+
+            <tr>
+                <td align = "left" width = "100px"><img src="zhai.png" style="width:200px;"></td>
+                <td align = "center">
+                    <table width = "90%">
+                        <tr><td>(information from cs website)</td></tr>
+                        <tr><td>other link (e.g. to his site)</td></tr>
+                        <tr><td>top tags for the professor (e.g. cool hair)</td></tr>
+                    </table>
+                </td>
+            </tr>
+
+            <tr> 
+                <td>course</td> 
+                <td align = "center">
+                    <table id = "table1" width = "90%">
+                        <tr><th align = "left">course</th>
+                            <th align = "left">rate</th>
+                            <th align = "left">comments</th>
+                        </tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+                        <tr><td>miaow</td><td>miaow</td><td>miaow</td></tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+                        <tr><td>miaow</td><td>miaow</td><td>miaow</td></tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+                        <tr><td>miaow</td><td>miaow</td><td>miaow</td></tr>
+                        <tr><td>nyan</td><td>nyan</td><td>nyan</td></tr>
+
+                    </table>            
+                    <script language="javascript" type="text/javascript">
+                        //<![CDATA[
+                        var table1Filters = {
+                            display_all_text: " [ Show all ] ",
+                            col_0: "select",
+                            col_1: "none",
+                            col_2: "none",
+                            }
+                        setFilterGrid("table1",1,table1Filters);
+                        //]]>
+                    </script>
+                </td>
+            </tr>
+            <tr>
+                <td>My selfies (when have hair)</td>
+                <td><img src = "zhai1.jpg" style = "width:170px"><img src = "zhai2.jpeg" style = "width:170px"></td>
+            </tr>
+            </table>
+
+            </div>
+
+            <br/>
+
+        </form> 
+
+	</body>
+
+
+	
+</html>
+
